@@ -216,6 +216,14 @@ footer p{
   padding-left: 10px;
 }
 
+.social-logos{
+  color: white;
+}
+
+.fa-brands{
+  padding: 0px 10px;
+}
+
 .colonna-piccola{
   background-color: #20B2AA;
   border: 1px dashed white;
