@@ -5,11 +5,11 @@
 }
 
 body{
-  font-family: sans-serif
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .box{
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -99,7 +99,7 @@ nav ul li a{
   height: 415px;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   text-align: center;
   font-weight: 600;
@@ -114,19 +114,31 @@ h1{
 }
 
 .download, .open-browser{
-  padding: 12px;
+  padding: 15px 12px;
+
 }
 
 .open-browser{
   background-color: black;
   color: white;
+  margin-left: 30px;
+}
+
+h1, p, button{
+  padding: 15px 0px;
 }
 
 
 /*Main*/
 
-.section{
-  padding: 50px 0;
+h2{
+  font-size: 50px;
+}
+
+.text p{
+  font-size: 1.3rem;
+  font-weight: bold;
+  padding-top: 40px;
 }
 
 .section-grey{
@@ -134,21 +146,17 @@ h1{
 }
 
 .text{
-  background-color: #FFC0CB;
-  border: 1px dashed black;
   width: 38%;
-  height: 520px;
+  height: 885px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  align-items: flex-start;
 }
 
 .image{
-  background-color: #1E90FF;
-  border: 1px dashed black;
   width: 62%;
-  height: 520px;
+  height: 885px;
   display: flex;
   justify-content: center;
   align-items: center;
