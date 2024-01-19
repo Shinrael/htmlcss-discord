@@ -113,9 +113,16 @@ h1{
   padding-right: 10px;
 }
 
-.download{
-  padding: 16px 12px;
+.download, .open-browser{
+  padding: 12px;
 }
+
+.open-browser{
+  background-color: black;
+  color: white;
+}
+
+
 /*Main*/
 
 .section{
