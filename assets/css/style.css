@@ -5,7 +5,7 @@
 }
 
 body{
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
 
 .box{
@@ -192,6 +192,15 @@ h3{
 
 /*Footer*/
 
+.colonna-grande h3{
+  color: #8EA1E1;
+}
+
+footer p{
+  color: white;
+  font-weight: bold;
+}
+
 .footer-up{
   height: 655px;
   background-color: #23272A;
@@ -199,14 +208,12 @@ h3{
 }
 
 .colonna-grande{
-  background-color: #F08080;
-  border: 1px dashed black;
   width: 30%;
   height: 600px;
   display: flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  padding-left: 10px;
 }
 
 .colonna-piccola{
@@ -250,4 +257,9 @@ h3{
   border: 1px dashed black;
   display: flex;
   padding: 5px;
+}
+
+#italy{
+  width: 30px;
+  height: 20px;
 }
