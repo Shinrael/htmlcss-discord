@@ -185,6 +185,11 @@ h3{
   min-height: 48px;
 }
 
+.big-container .pulsante{
+  background-color: #8EA1E1;
+  color: white;
+}
+
 /*Footer*/
 
 .footer-up{
