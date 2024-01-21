@@ -147,7 +147,7 @@ h3{
 }
 
 .section{
-  padding: 190px 0px;
+  padding: 150px 0px;
 }
 
 .section-grey{
@@ -205,15 +205,20 @@ footer p{
   padding-bottom: 18px;
 }
 
+footer .box{
+  display: flex;
+  align-items: flex-start;
+}
+
 .footer-up{
-  height: 655px;
+  
   background-color: #23272A;
   display: flex;
 }
 
 .colonna-grande{
   width: 30%;
-  height: 600px;
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -231,12 +236,13 @@ footer p{
 
 .colonna-piccola{
   width: 17.5%;
-  height: 600px;
+  
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
   padding-top: 50px;
+  padding-bottom: 20px;
 }
 
 .bottom-title{
@@ -256,7 +262,7 @@ footer p{
   width: 1250px;
   height: 82px;
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
 }
 
@@ -266,7 +272,6 @@ footer p{
 
 .footer-button{
   display: flex;
-  padding: 5px;
 }
 
 #italy{
