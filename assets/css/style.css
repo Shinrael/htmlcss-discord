@@ -124,7 +124,7 @@ h1{
   margin-left: 30px;
 }
 
-h1, p, button{
+h1, .hero-description, button{
   padding: 15px 0px;
 }
 
@@ -196,12 +196,13 @@ h3{
 
 .colonna-grande h3{
   color: #8EA1E1;
+  padding-bottom: 25px;
 }
 
 footer p{
   color: white;
   font-weight: bold;
-  
+  padding-bottom: 18px;
 }
 
 .footer-up{
@@ -215,8 +216,8 @@ footer p{
   height: 600px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  padding-left: 10px;
+  justify-content: flex-start;
+  padding-top: 50px;
 }
 
 .social-logos{
@@ -229,14 +230,17 @@ footer p{
 }
 
 .colonna-piccola{
-  background-color: #20B2AA;
-  border: 1px dashed white;
   width: 17.5%;
   height: 600px;
   display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding-top: 50px;
+}
+
+.bottom-title{
+  color: #8EA1E1;
 }
 
 .footer-down{
@@ -249,7 +253,6 @@ footer p{
 }
 
 .footer-container{
-  background-color: #7FFFD4;
   width: 1250px;
   height: 82px;
   display: flex;
@@ -258,15 +261,10 @@ footer p{
 }
 
 .footer-logo{
-  background-color: #FFB6C1;
-  border: 1px dashed black;
   display: flex;
-  padding: 5px;
 }
 
 .footer-button{
-  background-color: #FFB6C1;
-  border: 1px dashed black;
   display: flex;
   padding: 5px;
 }
@@ -274,4 +272,9 @@ footer p{
 #italy{
   width: 30px;
   height: 20px;
+}
+
+footer .pulsante{
+  background-color: #8EA1E1;
+  color: white;
 }
